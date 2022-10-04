@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   testing:
   - apiVersion: v2
+    appVersion: 1.17.0
+    created: "2022-10-04T12:04:20.118526615Z"
+    description: A Helm chart for Kubernetes
+    digest: 87a2b1e5e65ea24a4bd420c05ded235b78856d05da6c230ba19ec3be243c5713
+    name: testing
+    type: application
+    urls:
+    - https://github.com/hzierer/helm-testing/releases/download/testing-0.1.1/testing-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: 1.16.0
     created: "2022-10-04T11:44:56.847846159Z"
     description: A Helm chart for Kubernetes
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/hzierer/helm-testing/releases/download/testing-0.1.0/testing-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-04T11:44:56.847854742Z"
+generated: "2022-10-04T12:04:20.118538315Z"
