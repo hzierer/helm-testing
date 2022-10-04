@@ -3,6 +3,21 @@ entries:
   testing:
   - apiVersion: v2
     appVersion: 1.17.0
+    created: "2022-10-04T12:27:25.539821806Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.x.x
+    description: A Helm chart for Kubernetes
+    digest: 6b63893274407b9bca5ceee401ce62dd6525bb3755ba754d1112c696e56c9ade
+    name: testing
+    type: application
+    urls:
+    - https://github.com/hzierer/helm-testing/releases/download/testing-0.1.2/testing-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.17.0
     created: "2022-10-04T12:04:20.118526615Z"
     description: A Helm chart for Kubernetes
     digest: 87a2b1e5e65ea24a4bd420c05ded235b78856d05da6c230ba19ec3be243c5713
@@ -21,4 +36,4 @@ entries:
     urls:
     - https://github.com/hzierer/helm-testing/releases/download/testing-0.1.0/testing-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-04T12:04:20.118538315Z"
+generated: "2022-10-04T12:27:25.539845206Z"
